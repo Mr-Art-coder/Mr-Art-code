@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="vieport" content="width=device-width, intiial-scale=1">
+	<title>About</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			box-sizing: border-box;
+		}
+		body{
+			background-color: brown;
+			
+		}
+		/** Header **/
+	.hat{
+		background-color: white;
+		width: 100%;
+		height: 150px;
+		border-bottom: inset;
+		border-bottom-color: gold;
+		clear: right;
+	}
+	
+	nav{
+		padding-left: 30%;
+	}
+	h1{
+		color: brown;
+		float: left;
+		font-size: 3em;
+		padding-top: 30px;
+	}
+	.mac{
+		height: 60px;
+		width: 70px;
+		float: left;
+		margin-top: 20px;
+	}	
+	footer{
+		margin-top: 100px;
+	}
+	ul a{
+		list-style: none;
+		padding-left: 20px;
+		text-decoration: none;
+		color: brown;
+	}
+	li{
+		display: inline;
+
+	}
+	a:hover, a:active{
+		color: white;
+		background-color: brown;
+		border-style: inset;
+		border-color: gold;
+	}
+	/** Header/ Footer**/
+	#line{
+		text-align: center;
+		font-weight: bold;
+		padding-top: 95px;
+		color: brown;
+	}
+	/** Footer**/
+	#foot{
+		height: 30px;
+		width: 30px;
+		float: left;
+		margin-top: 40px;
+		border-style: inset;
+		border-color: gold;
+		border-radius: 100px;
+		
+	}	
+	.marg{
+padding-left: 46%;
+	}
+	article img{
+		float: left;
+		padding-left: 20px;
+		height: 450px;
+		width: 600px;
+	}
+	article{
+padding-top: 50px;
+	}
+	.tiwa{
+		float: right;
+		padding-right: 30px;
+	}
+	#sect{
+		font-size: 1.7em;
+		font-weight: bolder;
+		line-height: 1.2;
+		letter-spacing: .05em;
+		color: white;
+		text-align: center;
+		margin-top: 2em
+	}
+p{
+		color: white;
+		line-height: 1.7em;
+		font-size: 1.2em;
+	}
+	#line p{
+		color: brown;
+		line-height: 1.4em;
+	}
+	h2{
+		color: white;
+		font-weight: bolder;
+		font-family: sans-serif;
+	}
+	span{
+		font-size: 2em;
+	}
+	/** Larger devices only************************************************************/
+	@media(min-width: 1200px){
+		nav{
+		padding-left: 30%;
+		padding-right: 10%;
+		}
+	}
+	/**Medium devices only*********************************************************/
+	@media(min-width: 992px) and (max-width: 1199px){
+nav{
+		padding-left: 23%;
+		padding-right: 10%;
+		}
+		article img{
+		padding-left: 0px;
+		float: left;
+	}
+	.tiwa{
+		text-align: center;
+		margin-top: 3em;
+		float: none;
+	}
+
+	}
+@media(min-width: 768px) and (max-width: 991px){
+nav{
+		padding-left: 18%;
+		padding-right: 8%;
+		}
+		article img{
+		float: none;
+		padding-left: 0px;
+		float: left;
+	}
+		.tiwa{
+		text-align: center;
+		margin-top: 3em;
+		float: none;
+	}
+
+}
+
+	</style>
+</head>
+<body>
+<header class="hat">
+	<nav>
+	<h1 title="We give you the best!">Cicitiwa Fashion House</h1>
+	<img src="images/machine.jpeg" class="mac">
+	
+</nav>
+<div id="line">
+	<ul>
+	<li><a href="index.html" >Home</a></li>
+	<li><a href="shop.html">Shop</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+</header>
+<div id="sect">ABOUT US</div>
+<article>
+<img src="images/house.jpeg" alt="About" >
+<div class="tiwa">
+	<p><span>"At Cicitiwa Fashion House, we believe in<br> the power of design<br> to change the world"</span></p><br><br>
+	<p>Cicitiwa Fashion House, in affliation to Cicitiwa Blog was established<br> in 2018 by Ayodeji Tiwatope Oluwafunmi (a renowned, veteran blogger).<br> She is from Abeokuta in the present Ogun State of Nigeria.</p><br><br>
+		<h2>OUR VISION</h2>
+		<p>To be the best fashion house in Nigeria through innovation backed by excellent service<br> delivery, highly motivated human capital and latest design.</p><br><br>
+		<h2>OUR MISSION</h2>
+		<p>To impact positively on our society by providing high quality, reliable and affordable<br> designs for promoting good appearance.</p><br><br>
+		<h2>OUR CORE VALUES</h2>
+		<p>Equity and Fairness</p>
+		<p>Integrity</p>
+		<p>People Centerdness</p>
+		<p>Excellence</p>
+	</div>
+</article>
+<footer class="hat" style="border-bottom: none;">
+	<div class="marg">
+	<a href="#"><img src="images/face.jpeg" alt="facebook"  id="foot"></a>
+	<a href="#"><img src="images/ins.jpeg" alt="instagram" id="foot"></a>
+	<a href="#"><img src="images/twitter.jpeg" alt="twitter" id="foot"></a>
+</div>
+	<div id="line" style="border-top: inset gold;">
+	<p>Cicitiwa2020</p>
+	<p>All Right Reserved</p>
+</div>
+</footer>
+</body>
+</html>

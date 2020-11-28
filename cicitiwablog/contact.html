@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="vieport" content="width=device-width, intiial-scale=1">
+	<title>Contact</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			box-sizing: border-box;
+		}
+		body{
+			background-color: brown;
+		}
+		/** Header **/
+	.hat{
+		background-color: white;
+		width: 100%;
+		height: 150px;
+		border-bottom: inset;
+		border-bottom-color: gold;
+	}
+	nav{
+		padding-left: 30%;
+	}
+	h1{
+		color: brown;
+		float: left;
+		font-size: 3em;
+		padding-top: 30px;
+	}
+	.mac{
+		height: 60px;
+		width: 70px;
+		float: left;
+		margin-top: 20px;
+	}	
+	footer{
+		margin-top: 100px;
+	}
+	ul a{
+		list-style: none;
+		padding-left: 20px;
+		text-decoration: none;
+		color: brown;
+	}
+	li{
+		display: inline;
+
+	}
+	a:hover, a:active{
+		color: white;
+		background-color: brown;
+		border-style: inset;
+		border-color: gold;
+	}
+	/** Header/ Footer**/
+	#line{
+		text-align: center;
+		font-weight: bold;
+		padding-top: 95px;
+		color: brown;
+	}
+	/** Footer**/
+	#foot{
+		height: 30px;
+		width: 30px;
+		float: left;
+		margin-top: 40px;
+		border-style: inset;
+		border-color: gold;
+		border-radius: 100px;
+		
+	}	
+	.marg{
+padding-left: 46%;
+	}
+	/** CONTACT**/
+	
+	#sect{
+		font-size: 1.7em;
+		font-weight: bolder;
+		line-height: 1.2;
+		letter-spacing: .05em;
+		color: white;
+		margin-top: 70px;
+	}
+	#left{
+		float: right;
+		margin-top: -470px;
+		padding-right: 12em;
+	}
+	#right{
+		padding-left: 15em;
+		padding-top: 30px;
+	}
+	#white{
+		color: white;
+		font-weight: bold;
+	}
+	.mid input{
+border-style: inset;
+border-color: gold;
+width: 30em;
+height: 2em;
+
+	}
+	.head{
+		text-align: center;
+	}
+	input{
+		border-style: inset;
+		border-color: gold;
+		color: brown;
+		font-weight: bold;
+		background-color: white;
+		padding: 5px;
+		cursor: pointer;
+		font-size: ;
+
+	}
+	h2{
+		color: white;
+		font-weight: bolder;
+		font-family: sans-serif;
+	}
+	p{
+		color: white;
+		line-height: 1.7em;
+		font-size: 1.2em;
+	}
+	#line p{
+		color: brown;
+		line-height: 1.4em;
+	}
+	/** Larger devices only************************************************************/
+	@media(min-width: 1200px){
+		nav{
+		padding-left: 30%;
+		padding-right: 10%;
+		}
+	}
+	/**Medium devices only*********************************************************/
+	@media(min-width: 992px) and (max-width: 1199px){
+nav{
+		padding-left: 23%;
+		padding-right: 10%;
+		}
+		#left{
+		padding-right: 5em;
+	}
+	#right{
+		padding-left: 5em;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+nav{
+		padding-left: 18%;
+		padding-right: 8%;
+		}
+		#left{
+		padding-right: 2em;
+	}
+	#right{
+		padding-left: 5em;
+	}
+
+}
+
+	</style>
+
+</head>
+<body>
+<header class="hat">
+	<nav>
+	<h1 title="We give you the best!">Cicitiwa Fashion House</h1>
+	<img src="images/machine.jpeg" class="mac">
+	
+</nav>
+<div id="line">
+	<ul>
+	<li><a href="index.html" >Home</a></li>
+	<li><a href="shop.html">Shop</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+</header>
+	<div class="head">
+<div id="sect">CONTACT US TODAY</div><br>
+<p id="white">Want to get in touch? We’d love to hear from you…</p><br>
+</div>
+<div id="right">
+<form action="index.html">
+	<div class="mid">
+	<label id="white">Your Name(required)</label><br>
+	<input type="text" name="username" class="form" title="Kindly fill your name" required placeholder="Adeola"><br><br>
+	<label id="white">Phone Number(required)</label><br>
+	<input type="text" name="username" class="form" title="Kindly fill your Number" required placeholder="09067751244"><br><br>
+	<label id="white">Your Email(required)</label><br>
+	<input type="email" name="username" class="form" title="Kindly fill your /Email" required placeholder="google@gmail.com"><br><br>
+	<label id="white">Subject</label><br>
+	<input type="text" name="username" class="form" title="The Topic of your Message"><br><br>
+	<label id="white">Your Message</label><br>
+	<textarea placeholder="Hello Cicitiwa" rows="10px" cols="40px" style="border-style: inset; border-color: gold; border-width: 5px;"></textarea><br><br>
+</div>
+	<input type="submit" value="Submit">
+</form>
+</div>
+<div id="left">
+	<h2>ADDRESS</h2>
+	<p>PLOT 7 BLOCK 95<br>
+		BABTUNDE MOSES STREET<br>
+		OFF ADEOLA JOHNSON DRIVE<br>
+	LEKKI PHASE 1, LAGOS</p><br><br>
+	<h2>CALL</h2>
+	<p>07033069234</p><br><br>
+	<h2>BE SOCIAL WITH US</h2>
+		<p>INSTAGRAM-@cicitiwa</p>
+		<p>TWITTER-@cicitiwa</p>
+		<p>EMAIL-cicitiwa@gmail.com</p>
+	</div>
+<footer class="hat" style="border-bottom: none;">
+	<div class="marg">
+	<a href="#s"><img src="images/face.jpeg" alt="facebook"  id="foot"></a>
+	<a href="#"><img src="images/ins.jpeg" alt="instagram" id="foot"></a>
+	<a href="#"><img src="images/twitter.jpeg" alt="twitter" id="foot"></a>
+</div>
+<div id="line" style="border-top: inset gold;">
+	<p >Cicitiwa2020</p>
+	<p>All Right Reserved</p>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="vieport" content="width=device-width, intiial-scale=1">
+	<title>Homepage</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			box-sizing: border-box;
+		}
+		body{
+			background-color: brown;
+			
+		}
+		/** Header **/
+	.hat{
+		background-color: white;
+		width: 100%;
+		height: 150px;
+		border-bottom: inset;
+		border-bottom-color: gold;
+		clear: left;
+	}
+	nav{
+		padding-left: 30%;
+		padding-right: 10%;
+	}
+	.hat h1{
+		color: brown;
+		float: left;
+		font-size: 3em;
+		padding-top: 30px;
+	}
+	.mac{
+		height: 60px;
+		width: 70px;
+		float: left;
+		margin-top: 20px;
+		display: absolute;
+	}	
+	footer{
+		margin-top: 100px;
+	}
+	ul a{
+		list-style: none;
+		padding-left: 20px;
+		text-decoration: none;
+		color: brown;
+	}
+	li{
+		display: inline;
+
+	}
+	a:hover, a:active{
+		color: white;
+		background-color: brown;
+		border-style: inset;
+		border-color: gold;
+	}
+	/** Header/ Footer**/
+	#line{
+		text-align: center;
+		font-weight: bold;
+		padding-top: 95px;
+		color: brown;
+	}
+	/** Footer**/
+	#foot{
+		height: 30px;
+		width: 30px;
+		float: left;
+		margin-top: 40px;
+		border-style: inset;
+		border-color: gold;
+		border-radius: 100px;
+		
+	}	
+	.marg{
+padding-left: 46%;
+	}
+	#line p{
+		color: brown;
+		line-height: 1.4em;
+	}
+	/** main **/
+	main{
+		margin-top: 50px;
+		margin-left: 50px;
+	}
+	.first, .second, .third, .fourth{
+		height: 400px;
+		width: 350px;
+		border-color: gold;
+		border-style: inset;
+		float: left;
+		position: relative;
+	}
+	.second{
+		margin-left: 6em;
+		background-image: url("./images/one.jpeg");
+		background-repeat: no-repeat;
+		margin-top: 2em;
+	}
+	.fourth{
+		margin-left: 6em;
+		margin-top: 50px;
+		background-image: url("./images/three.jpeg");
+		background-repeat: no-repeat;
+		margin-bottom: 50px;
+	}
+	.third{
+		margin-top: 50px;
+		margin-left: 15em;
+		background-image: url("./images/eight.jpeg");
+		background-repeat: no-repeat;
+		margin-bottom: 50px;
+	}
+	.first{
+		margin-left: 15em;
+		background-image: url("./images/native.jpeg");
+		background-repeat: no-repeat;
+		margin-top: 2em;
+		
+	}
+	span{
+		position: absolute;
+		bottom: 0px;
+		color: white;
+		background-color: brown;
+		text-align: center;
+		width: 100%;
+		font-size: 1.2em;
+		line-height: 1.4em;
+	}
+	main h1{
+		color: white;
+		text-align: center;
+	}
+	/** Larger devices only************************************************************/
+	@media(min-width: 1200px){
+		nav{
+		padding-left: 30%;
+		padding-right: 10%;
+		}
+	}
+	/**Medium devices only*********************************************************/
+	@media(min-width: 992px) and (max-width: 1199px){
+nav{
+		padding-left: 23%;
+		padding-right: 10%;
+		}
+.first, .second, .third, .fourth{
+		float: left;
+	}
+	.first{
+margin-left: 5%;
+	}
+	.third{
+margin-left: 5%;
+	}
+	.hat{
+		clear: left;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	nav{
+		padding-left: 18%;
+		padding-right: 8%;
+		}
+		
+	.first, .second, .third, .fourth{
+		float: none;
+		margin-left: 30%;
+	}
+
+}
+
+	</style>
+</head>
+<body>
+<header class="hat">
+	<nav>
+	<h1 title="We give you the best!">Cicitiwa Fashion House</h1>
+	<img src="images/machine.jpeg" class="mac">
+	
+</nav>
+<div id="line">
+	<ul>
+	<li><a href="index.html" >Home</a></li>
+	<li><a href="shop.html">Shop</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+</header>
+<main>
+	<h1 title="We have the best for you">SHOP WITH US</h1>
+	<a href="shop.html#males"><div class="first"><span>Native for Males</span></div></a>
+	<a href="shop.html#english"><div class="second"><span>English for Males</span></div></a>
+	<a href="shop.html#females"><div class="third"><span>Native for Females</span></div></a>
+	<a href="shop.html#native"><div class="fourth"><span>English for Females</span></div></a>
+</main>
+<footer class="hat" style="border-bottom: none;">
+	<div class="marg">
+	<a href="#"><img src="images/face.jpeg" alt="facebook"  id="foot"></a>
+	<a href="#"><img src="images/ins.jpeg" alt="instagram" id="foot"></a>
+	<a href="#"><img src="images/twitter.jpeg" alt="twitter" id="foot"></a>
+</div>
+	<div id="line" style="border-top: inset gold;">
+	<p>Cicitiwa2020</p>
+	<p>All Right Reserved</p>
+</div>
+</footer>
+</body>
+</html>
